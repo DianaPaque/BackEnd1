@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author usuario
  */
-public class networkClient {
+public class NetworkClient {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Type your name: ");
