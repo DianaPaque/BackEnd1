@@ -26,6 +26,8 @@ public class Ejemplo1 {
     }
     
     public void connect() throws IOException{
+        //SSLSockedFactory sockedFactory = (SSLSockedFactory.getDefault());
+        // clientSocked = (SSLSocked)sockedFactory.createSocked(serverAddres, port);
         clientSocket = new Socket(serverAddress, port);
         System.out.println("Connection established");
         inputStream = new DataInputStream(clientSocket.getInputStream());

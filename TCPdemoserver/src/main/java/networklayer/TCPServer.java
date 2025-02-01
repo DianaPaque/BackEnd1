@@ -4,7 +4,7 @@
  */
 package networklayer;
 
-import com.mycompany.tcpdemobusiness.NamesManager;
+import com.mycompany.tcpdemoserver.business.NamesManager;
 import java.io.DataInputStream;
 import java.io.DataOutput;
 import java.io.DataOutputStream;
